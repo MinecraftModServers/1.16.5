@@ -1,0 +1,370 @@
+[09out2022 14:41:35.103] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.39, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[09out2022 14:41:35.105] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_341 by Oracle Corporation
+[09out2022 14:41:35.113] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,testharness,fmlclient,fmlserver]
+[09out2022 14:41:35.122] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : []
+[09out2022 14:41:35.150] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,object_holder_definalize,runtime_enum_extender,accesstransformer,capability_inject_definalize,runtimedistcleaner]
+[09out2022 14:41:35.156] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[09out2022 14:41:35.161] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: []
+[09out2022 14:41:35.171] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[09out2022 14:41:35.171] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[09out2022 14:41:35.171] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[09out2022 14:41:35.171] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[09out2022 14:41:35.171] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[09out2022 14:41:35.172] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]: Injecting tracing printstreams for STDOUT/STDERR.
+[09out2022 14:41:35.174] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 36.2
+[09out2022 14:41:35.174] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 36.2 loading
+[09out2022 14:41:35.174] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 8.1.3+8.1.3+main-8.1.x.c94d18ec
+[09out2022 14:41:35.174] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Initializing modjar URL handler
+[09out2022 14:41:35.174] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 3.0.1+61+master.47bca0e
+[09out2022 14:41:35.174] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 4.0.0+65+master.6080a3f
+[09out2022 14:41:35.175] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[09out2022 14:41:35.176] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 4.0.6+14+master.c21a551
+[09out2022 14:41:35.176] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 3.2.0+13+master.8ddb2cc
+[09out2022 14:41:35.176] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 3
+[09out2022 14:41:35.418] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[09out2022 14:41:35.418] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[09out2022 14:41:35.419] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[09out2022 14:41:35.425] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[09out2022 14:41:35.425] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[09out2022 14:41:35.432] [main/DEBUG] [mixin/]: Mixin bootstrap service org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapperBootstrap is not available: LaunchWrapper is not available
+[09out2022 14:41:35.433] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in sun.misc.Launcher$AppClassLoader@4517d9a3
+[09out2022 14:41:35.443] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/gusta/OneDrive/%c3%81rea%20de%20Trabalho/server-mod-1.16.5/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[09out2022 14:41:35.447] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[09out2022 14:41:35.447] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[09out2022 14:41:35.448] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[09out2022 14:41:35.448] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[09out2022 14:41:35.448] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[09out2022 14:41:35.448] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[09out2022 14:41:35.450] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[09out2022 14:41:35.450] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[09out2022 14:41:35.450] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[09out2022 14:41:35.450] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5
+[09out2022 14:41:35.451] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5
+[09out2022 14:41:35.451] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\mods
+[09out2022 14:41:35.451] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\mods
+[09out2022 14:41:35.451] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\config
+[09out2022 14:41:35.451] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\config
+[09out2022 14:41:35.451] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\config\fml.toml
+[09out2022 14:41:35.451] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[09out2022 14:41:35.476] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\defaultconfigs
+[09out2022 14:41:35.476] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[09out2022 14:41:35.478] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[09out2022 14:41:35.478] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using fmlserver as launch service
+[09out2022 14:41:35.482] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : MC Version: '1.16.5' MCP Version: '20210115.111550' Forge Version: '36.2.39' Forge group: 'net.minecraftforge'
+[09out2022 14:41:35.483] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR asm at path C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\org\ow2\asm\asm\9.1\asm-9.1.jar
+[09out2022 14:41:35.483] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found probable library path C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries
+[09out2022 14:41:35.483] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found forge path C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-universal.jar is present
+[09out2022 14:41:35.484] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: SRG MC at C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraft\server\1.16.5-20210115.111550\server-1.16.5-20210115.111550-srg.jar is present
+[09out2022 14:41:35.484] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: MC Extras at C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraft\server\1.16.5-20210115.111550\server-1.16.5-20210115.111550-extra.jar is present
+[09out2022 14:41:35.484] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Forge patches at C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-server.jar is present
+[09out2022 14:41:35.487] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 0 language providers
+[09out2022 14:41:35.487] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding forge as a language from C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-universal.jar
+[09out2022 14:41:35.488] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding file:/C:/Users/gusta/OneDrive/햞ea%20de%20Trabalho/server-mod-1.16.5/libraries/net/minecraftforge/forge/1.16.5-36.2.39/forge-1.16.5-36.2.39-universal.jar to languageloader classloader
+[09out2022 14:41:35.513] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[09out2022 14:41:35.513] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 36.2
+[09out2022 14:41:35.517] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1
+[09out2022 14:41:35.518] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[09out2022 14:41:35.519] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[09out2022 14:41:35.519] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[09out2022 14:41:35.519] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[09out2022 14:41:35.519] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[09out2022 14:41:35.520] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[09out2022 14:41:35.520] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[09out2022 14:41:35.520] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[09out2022 14:41:35.529] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[09out2022 14:41:35.541] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)
+[09out2022 14:41:35.563] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\mods\Blocklings+7.0.0_b4.1+-+1.16.5.jar
+[09out2022 14:41:35.580] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Blocklings+7.0.0_b4.1+-+1.16.5.jar with {blocklings} mods - versions {7.0.0.4}
+[09out2022 14:41:35.581] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\mods\Blocklings+7.0.0_b4.1+-+1.16.5.jar with language javafml
+[09out2022 14:41:35.582] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-universal.jar
+[09out2022 14:41:35.582] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.16.5-36.2.39-universal.jar with {forge} mods - versions {36.2.39}
+[09out2022 14:41:35.593] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-universal.jar with language javafml
+[09out2022 14:41:35.610] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF/fieldtomethodtransformers.js
+[09out2022 14:41:35.610] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[09out2022 14:41:35.610] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[09out2022 14:41:35.610] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/fieldtomethodtransformers.js
+[09out2022 14:41:35.610] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[09out2022 14:41:35.610] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[09out2022 14:41:35.610] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-server.jar
+[09out2022 14:41:35.613] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.16.5-36.2.39-server.jar with {minecraft} mods - versions {1.16.5}
+[09out2022 14:41:35.613] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-server.jar with language minecraft
+[09out2022 14:41:35.619] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements (0 mandatory, 0 optional)
+[09out2022 14:41:35.620] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[09out2022 14:41:35.840] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[09out2022 14:41:35.840] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[09out2022 14:41:35.841] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[09out2022 14:41:35.841] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[09out2022 14:41:35.841] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[09out2022 14:41:35.841] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[09out2022 14:41:35.841] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from META-INF/fieldtomethodtransformers.js
+[09out2022 14:41:35.911] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[09out2022 14:41:35.911] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[09out2022 14:41:35.977] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[09out2022 14:41:35.977] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[09out2022 14:41:35.993] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[09out2022 14:41:35.999] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5c089b2f to Target : CLASS {Lnet/minecraft/potion/EffectInstance;} {} {V}
+[09out2022 14:41:35.999] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2bc12da to Target : CLASS {Lnet/minecraft/block/FlowingFluidBlock;} {} {V}
+[09out2022 14:41:35.999] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3122b117 to Target : CLASS {Lnet/minecraft/item/BucketItem;} {} {V}
+[09out2022 14:41:36.000] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@534ca02b to Target : CLASS {Lnet/minecraft/block/StairsBlock;} {} {V}
+[09out2022 14:41:36.000] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@29a23c3d to Target : CLASS {Lnet/minecraft/block/FlowerPotBlock;} {} {V}
+[09out2022 14:41:36.000] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4b6ac111 to Target : CLASS {Lnet/minecraft/item/FishBucketItem;} {} {V}
+[09out2022 14:41:36.000] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@6fe46b62 to Target : CLASS {Lnet/minecraft/item/ItemStack;} {} {V}
+[09out2022 14:41:36.000] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@591fd34d to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[09out2022 14:41:36.000] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@7c9b78e3 to Target : METHOD {Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;} {func_175156_o} {()F}
+[09out2022 14:41:36.000] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@3068b369 to Target : METHOD {Lnet/minecraft/client/renderer/FirstPersonRenderer;} {func_228396_a_} {(FLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer$Impl;Lnet/minecraft/client/entity/player/ClientPlayerEntity;I)V}
+[09out2022 14:41:36.000] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@17ca8b92 to Target : METHOD {Lnet/minecraft/client/renderer/entity/model/SkeletonModel;} {func_212843_a_} {(Lnet/minecraft/entity/MobEntity;FFF)V}
+[09out2022 14:41:36.000] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@5491f68b to Target : METHOD {Lnet/minecraft/client/renderer/entity/model/SkeletonModel;} {func_225597_a_} {(Lnet/minecraft/entity/MobEntity;FFFFF)V}
+[09out2022 14:41:36.000] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@736ac09a to Target : METHOD {Lnet/minecraft/entity/monster/AbstractSkeletonEntity;} {func_230280_a_} {(Lnet/minecraft/item/ShootableItem;)Z}
+[09out2022 14:41:36.000] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@6ecd665 to Target : METHOD {Lnet/minecraft/entity/monster/AbstractSkeletonEntity;} {func_85036_m} {()V}
+[09out2022 14:41:36.000] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@45394b31 to Target : METHOD {Lnet/minecraft/client/renderer/FirstPersonRenderer;} {func_228396_a_} {(FLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer$Impl;Lnet/minecraft/client/entity/player/ClientPlayerEntity;I)V}
+[09out2022 14:41:36.001] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1ec7d8b3 to Target : METHOD {Lnet/minecraft/client/renderer/FirstPersonRenderer;} {func_228405_a_} {(Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;FFLnet/minecraft/util/Hand;FLnet/minecraft/item/ItemStack;FLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V}
+[09out2022 14:41:36.001] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@3b0ca5e1 to Target : METHOD {Lnet/minecraft/client/renderer/entity/PlayerRenderer;} {func_241741_a_} {(Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/client/renderer/entity/model/BipedModel$ArmPose;}
+[09out2022 14:41:36.001] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@5bb3131b to Target : METHOD {Lnet/minecraft/entity/monster/PillagerEntity;} {func_230280_a_} {(Lnet/minecraft/item/ShootableItem;)Z}
+[09out2022 14:41:36.001] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@54dcbb9f to Target : METHOD {Lnet/minecraft/entity/monster/PillagerEntity;} {func_241844_w} {(F)V}
+[09out2022 14:41:36.001] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@74fef3f7 to Target : METHOD {Lnet/minecraft/entity/monster/piglin/PiglinEntity;} {func_208003_a} {(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z}
+[09out2022 14:41:36.001] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@2a037324 to Target : METHOD {Lnet/minecraft/entity/monster/piglin/PiglinEntity;} {func_230280_a_} {(Lnet/minecraft/item/ShootableItem;)Z}
+[09out2022 14:41:36.001] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@69eb86b4 to Target : METHOD {Lnet/minecraft/item/CrossbowItem;} {func_220013_l} {(Lnet/minecraft/item/ItemStack;)F}
+[09out2022 14:41:36.001] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@585ac855 to Target : METHOD {Lnet/minecraft/item/Item;} {func_219970_i} {(Lnet/minecraft/item/ItemStack;)Z}
+[09out2022 14:41:36.001] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@5bb8f9e2 to Target : METHOD {Lnet/minecraft/client/renderer/FirstPersonRenderer;} {func_228405_a_} {(Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;FFLnet/minecraft/util/Hand;FLnet/minecraft/item/ItemStack;FLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V}
+[09out2022 14:41:36.001] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@6a933be2 to Target : METHOD {Lnet/minecraft/entity/item/ItemFrameEntity;} {func_110131_b} {(Lnet/minecraft/item/ItemStack;)V}
+[09out2022 14:41:36.002] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@5f78de22 to Target : METHOD {Lnet/minecraft/inventory/container/CartographyContainer$3;} {func_75214_a} {(Lnet/minecraft/item/ItemStack;)Z}
+[09out2022 14:41:36.002] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@516ebdf8 to Target : METHOD {Lnet/minecraft/inventory/container/CartographyContainer;} {func_82846_b} {(Lnet/minecraft/entity/player/PlayerEntity;I)Lnet/minecraft/item/ItemStack;}
+[09out2022 14:41:36.002] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@4d8539de to Target : METHOD {Lnet/minecraft/item/ItemStack;} {func_82840_a} {(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/client/util/ITooltipFlag;)Ljava/util/List;}
+[09out2022 14:41:36.002] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@3eba57a7 to Target : METHOD {Lnet/minecraft/client/renderer/entity/FishRenderer;} {func_225623_a_} {(Lnet/minecraft/entity/projectile/FishingBobberEntity;FFLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V}
+[09out2022 14:41:36.002] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@272a179c to Target : METHOD {Lnet/minecraft/entity/projectile/FishingBobberEntity;} {func_234600_a_} {(Lnet/minecraft/entity/player/PlayerEntity;)Z}
+[09out2022 14:41:36.002] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@30feffc to Target : METHOD {Lnet/minecraft/block/BeehiveBlock;} {func_225533_a_} {(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)Lnet/minecraft/util/ActionResultType;}
+[09out2022 14:41:36.002] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@67207d8a to Target : METHOD {Lnet/minecraft/block/PumpkinBlock;} {func_225533_a_} {(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)Lnet/minecraft/util/ActionResultType;}
+[09out2022 14:41:36.002] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@bcb09a6 to Target : METHOD {Lnet/minecraft/block/TripWireBlock;} {func_176208_a} {(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;Lnet/minecraft/entity/player/PlayerEntity;)V}
+[09out2022 14:41:36.002] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@7c2a69b4 to Target : METHOD {Lnet/minecraft/enchantment/EfficiencyEnchantment;} {func_92089_a} {(Lnet/minecraft/item/ItemStack;)Z}
+[09out2022 14:41:36.002] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@a619c2 to Target : METHOD {Lnet/minecraft/entity/passive/MooshroomEntity;} {func_230254_b_} {(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResultType;}
+[09out2022 14:41:36.002] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@648ee871 to Target : METHOD {Lnet/minecraft/entity/passive/SheepEntity;} {func_230254_b_} {(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResultType;}
+[09out2022 14:41:36.002] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@375b5b7f to Target : METHOD {Lnet/minecraft/entity/passive/SnowGolemEntity;} {func_230254_b_} {(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResultType;}
+[09out2022 14:41:36.002] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[09out2022 14:41:36.015] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[09out2022 14:41:36.015] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[09out2022 14:41:36.016] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.39-server.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-server.jar)
+[09out2022 14:41:36.016] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.39-server.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-server.jar)
+[09out2022 14:41:36.016] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.39-server.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-server.jar)
+[09out2022 14:41:36.016] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.39-server.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-server.jar)
+[09out2022 14:41:36.016] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.39-server.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-server.jar)
+[09out2022 14:41:36.016] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.39-server.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-server.jar)]
+[09out2022 14:41:36.016] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(Blocklings+7.0.0_b4.1+-+1.16.5.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\mods\Blocklings+7.0.0_b4.1+-+1.16.5.jar)
+[09out2022 14:41:36.016] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(Blocklings+7.0.0_b4.1+-+1.16.5.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\mods\Blocklings+7.0.0_b4.1+-+1.16.5.jar)
+[09out2022 14:41:36.016] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(Blocklings+7.0.0_b4.1+-+1.16.5.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\mods\Blocklings+7.0.0_b4.1+-+1.16.5.jar)
+[09out2022 14:41:36.016] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(Blocklings+7.0.0_b4.1+-+1.16.5.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\mods\Blocklings+7.0.0_b4.1+-+1.16.5.jar)
+[09out2022 14:41:36.016] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(Blocklings+7.0.0_b4.1+-+1.16.5.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\mods\Blocklings+7.0.0_b4.1+-+1.16.5.jar)
+[09out2022 14:41:36.016] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(Blocklings+7.0.0_b4.1+-+1.16.5.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\mods\Blocklings+7.0.0_b4.1+-+1.16.5.jar)]
+[09out2022 14:41:36.016] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.39-universal.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-universal.jar)
+[09out2022 14:41:36.016] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.39-universal.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-universal.jar)
+[09out2022 14:41:36.016] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.39-universal.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-universal.jar)
+[09out2022 14:41:36.017] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.39-universal.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-universal.jar)
+[09out2022 14:41:36.017] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.39-universal.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-universal.jar)
+[09out2022 14:41:36.017] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.39-universal.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-universal.jar)]
+[09out2022 14:41:36.017] [main/DEBUG] [mixin/]: inject() running with 4 agents
+[09out2022 14:41:36.017] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[09out2022 14:41:36.017] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.39-server.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-server.jar)]
+[09out2022 14:41:36.017] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(Blocklings+7.0.0_b4.1+-+1.16.5.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\mods\Blocklings+7.0.0_b4.1+-+1.16.5.jar)]
+[09out2022 14:41:36.017] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.5-36.2.39-universal.jar:C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-universal.jar)]
+[09out2022 14:41:36.017] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[09out2022 14:41:36.042] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[09out2022 14:41:36.045] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[09out2022 14:41:36.241] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_219970_i with desc (Lnet/minecraft/item/ItemStack;)Z
+[09out2022 14:41:36.342] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowingFluidBlock
+[09out2022 14:41:36.404] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/StairsBlock
+[09out2022 14:41:36.428] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_225533_a_ with desc (Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)Lnet/minecraft/util/ActionResultType;
+[09out2022 14:41:36.453] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_176208_a with desc (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;Lnet/minecraft/entity/player/PlayerEntity;)V
+[09out2022 14:41:36.457] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowerPotBlock
+[09out2022 14:41:36.500] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_225533_a_ with desc (Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)Lnet/minecraft/util/ActionResultType;
+[09out2022 14:41:36.898] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230254_b_ with desc (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResultType;
+[09out2022 14:41:37.096] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_82846_b with desc (Lnet/minecraft/entity/player/PlayerEntity;I)Lnet/minecraft/item/ItemStack;
+[09out2022 14:41:37.556] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_82840_a with desc (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/client/util/ITooltipFlag;)Ljava/util/List;
+[09out2022 14:41:37.621] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/ItemStack
+[09out2022 14:41:37.634] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_110131_b with desc (Lnet/minecraft/item/ItemStack;)V
+[09out2022 14:41:37.672] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230254_b_ with desc (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResultType;
+[09out2022 14:41:37.699] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230280_a_ with desc (Lnet/minecraft/item/ShootableItem;)Z
+[09out2022 14:41:37.700] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_208003_a with desc (Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z
+[09out2022 14:41:37.705] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230280_a_ with desc (Lnet/minecraft/item/ShootableItem;)Z
+[09out2022 14:41:37.706] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_241844_w with desc (F)V
+[09out2022 14:41:37.724] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230254_b_ with desc (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResultType;
+[09out2022 14:41:37.737] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_85036_m with desc ()V
+[09out2022 14:41:37.739] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230280_a_ with desc (Lnet/minecraft/item/ShootableItem;)Z
+[09out2022 14:41:38.189] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_92089_a with desc (Lnet/minecraft/item/ItemStack;)Z
+[09out2022 14:41:38.232] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/BucketItem
+[09out2022 14:41:38.238] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/FishBucketItem
+[09out2022 14:41:38.264] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_220013_l with desc (Lnet/minecraft/item/ItemStack;)F
+[09out2022 14:41:38.339] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/potion/EffectInstance
+[09out2022 14:41:38.366] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_234600_a_ with desc (Lnet/minecraft/entity/player/PlayerEntity;)Z
+[09out2022 14:41:38.465] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_75214_a with desc (Lnet/minecraft/item/ItemStack;)Z
+[09out2022 14:41:39.149] [main/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 4980
+[09out2022 14:41:39.247] [main/DEBUG] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[09out2022 14:41:39.250] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 16 threads for parallel mod-loading
+[09out2022 14:41:39.264] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@2d0bfb24 - got cpw.mods.modlauncher.TransformingClassLoader@2d0bfb24
+[09out2022 14:41:39.265] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.willr27.blocklings.Blocklings with classLoader cpw.mods.modlauncher.TransformingClassLoader@2d0bfb24 & cpw.mods.modlauncher.TransformingClassLoader@2d0bfb24
+[09out2022 14:41:39.267] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@2d0bfb24 - got cpw.mods.modlauncher.TransformingClassLoader@2d0bfb24
+[09out2022 14:41:39.267] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod with classLoader cpw.mods.modlauncher.TransformingClassLoader@2d0bfb24 & cpw.mods.modlauncher.TransformingClassLoader@2d0bfb24
+[09out2022 14:41:39.287] [modloading-worker-11/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 36.2 from cpw.mods.modlauncher.TransformingClassLoader@2d0bfb24
+[09out2022 14:41:39.287] [modloading-worker-11/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 36.2.39
+[09out2022 14:41:39.287] [modloading-worker-11/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 36.2
+[09out2022 14:41:39.287] [modloading-worker-11/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[09out2022 14:41:39.288] [modloading-worker-11/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.16.5
+[09out2022 14:41:39.288] [modloading-worker-11/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20210115.111550
+[09out2022 14:41:39.289] [modloading-worker-11/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.39, for MC 1.16.5 with MCP 20210115.111550
+[09out2022 14:41:39.292] [modloading-worker-11/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.39 Initialized
+[09out2022 14:41:39.330] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file blocklings-common.toml for blocklings tracking
+[09out2022 14:41:39.330] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file blocklings-client.toml for blocklings tracking
+[09out2022 14:41:39.331] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[09out2022 14:41:39.331] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[09out2022 14:41:39.332] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
+[09out2022 14:41:39.333] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for blocklings
+[09out2022 14:41:39.340] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.willr27.blocklings.event.ModEventBusEvents to MOD
+[09out2022 14:41:39.343] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.willr27.blocklings.event.ForgeEventBusEvents to FORGE
+[09out2022 14:41:39.349] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.willr27.blocklings.entity.EntityGeneration to FORGE
+[09out2022 14:41:39.359] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.willr27.blocklings.entity.blockling.BlocklingEntity to FORGE
+[09out2022 14:41:39.384] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[09out2022 14:41:39.385] [modloading-worker-11/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[09out2022 14:41:39.433] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.willr27.blocklings.command.BlocklingsCommands to FORGE
+[09out2022 14:41:39.538] [main/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[09out2022 14:41:39.539] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\config\blocklings-common.toml
+[09out2022 14:41:39.541] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\config\blocklings-common.toml
+[09out2022 14:41:39.543] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\config\blocklings-common.toml for changes
+[09out2022 14:41:39.545] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\config\forge-common.toml
+[09out2022 14:41:39.546] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\config\forge-common.toml
+[09out2022 14:41:39.547] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\config\forge-common.toml for changes
+[09out2022 14:41:39.547] [main/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-common.toml
+[09out2022 14:41:39.564] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[09out2022 14:41:39.579] [main/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after COMMON_SETUP: 1 jobs
+[09out2022 14:41:39.593] [main/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.010
+[09out2022 14:41:40.181] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.57",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.39",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-latest": "40.1.80",
+    "1.18.2-recommended": "40.1.0",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-recommended": "43.1.1",
+    "1.19.2-latest": "43.1.34"
+  }
+}
+[09out2022 14:41:40.182] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.39 Target: null
+[09out2022 14:41:40.308] [main/DEBUG] [net.minecraftforge.common.ForgeTagHandler/]: Populated the TagCollectionManager with 3 extra types
+[09out2022 14:41:40.524] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09out2022 14:41:40.652] [main/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:blocklings for mod file C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\mods\Blocklings+7.0.0_b4.1+-+1.16.5.jar
+[09out2022 14:41:40.652] [main/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\gusta\OneDrive\햞ea de Trabalho\server-mod-1.16.5\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39-universal.jar
+[09out2022 14:41:40.666] [main/DEBUG] [net.minecraftforge.common.ForgeTagHandler/]: Gathering custom tag collection reader from types.
+[09out2022 14:41:40.896] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09out2022 14:41:40.898] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09out2022 14:41:40.899] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09out2022 14:41:40.900] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09out2022 14:41:40.902] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09out2022 14:41:40.909] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Blocklings+7.0.0_b4.1+-+1.16.5.jar, forge-1.16.5-36.2.39-universal.jar
+[09out2022 14:41:41.268] [Worker-Main-14/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[09out2022 14:41:41.657] [Worker-Main-14/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
+[09out2022 14:41:42.424] [main/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[09out2022 14:41:42.430] [main/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[09out2022 14:41:42.474] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[09out2022 14:41:42.474] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[09out2022 14:41:42.475] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[09out2022 14:41:42.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[09out2022 14:41:42.547] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:8080
+[09out2022 14:41:42.553] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[09out2022 14:41:42.863] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09out2022 14:41:42.863] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[09out2022 14:41:42.865] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09out2022 14:41:42.865] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[09out2022 14:41:42.887] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\world\serverconfig
+[09out2022 14:41:42.887] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[09out2022 14:41:42.887] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\world\serverconfig\forge-server.toml
+[09out2022 14:41:42.889] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\world\serverconfig\forge-server.toml
+[09out2022 14:41:42.889] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\world\serverconfig\forge-server.toml for changes
+[09out2022 14:41:42.890] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[09out2022 14:41:42.901] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[09out2022 14:41:43.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[09out2022 14:41:43.540] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09out2022 14:41:43.541] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09out2022 14:41:43.888] [Server thread/INFO] [com.willr27.blocklings.Blocklings/]: Creating valid attack targets map.
+[09out2022 14:41:43.916] [Server thread/WARN] [com.willr27.blocklings.Blocklings/]: Failed to create entity: minecraft:fishing_bobber
+[09out2022 14:41:43.961] [Server thread/WARN] [com.willr27.blocklings.Blocklings/]: Failed to create entity: minecraft:player
+[09out2022 14:41:44.021] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 38%
+[09out2022 14:41:44.070] [Server thread/INFO] [com.willr27.blocklings.Blocklings/]: Creating trees list.
+[09out2022 14:41:45.292] [Worker-Main-12/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[09out2022 14:41:45.293] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[09out2022 14:41:45.528] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
+[09out2022 14:41:45.738] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2718 ms
+[09out2022 14:41:45.739] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.854s)! For help, type "help"
+[09out2022 14:41:45.747] [Server thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 410
+[09out2022 14:41:45.900] [Server thread/INFO] [com.willr27.blocklings.Blocklings/]: Creating crops list.
+[09out2022 14:41:45.900] [Server thread/INFO] [com.willr27.blocklings.Blocklings/]: Creating ores list.
